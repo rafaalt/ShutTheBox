@@ -9,14 +9,36 @@
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>SHUT THE BOX</h1>
     </header>
     <section>
-        <div>
-            A1
+        <div class="box">
+            <span class="number">1</span>
+            <span class="number">2</span>
+            <span class="number">3</span>
+            <span class="number">4</span>
+            <span class="number">5</span>
+            <span class="number">6</span>
+            <span class="number">7</span>
+            <span class="number">8</span>
+            <span class="number">9</span>
         </div>
-        <div>
-            S2
+        <div class="info" id="txtRest">
+            Inicie o jogo.
+        </div>
+        <div class="dados">
+                <img src="dado0.png" id="dado1">
+                <img src="dado0.png" id="dado2">
+        </div>
+        <div class="info" id="info">
+            Rode os dados
+        </div>
+        <div class="btn">
+            <input class="btn" type="button" value="Rodar" onclick="rodardados()">
+        </div>
+        <div class="btn2">
+            <input class="btn" type="button" value="Desistir" onclick="desistir()">
+            <input class="btn" type="button" value="Como Jogar" onclick="tutorial()">
         </div>
     </section>
     <footer>
